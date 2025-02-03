@@ -6,7 +6,7 @@ import ProductTable from "../components/ProductTable";
 
 const LandingPage = () => {
   const products = DataProducts;
-  const [search, setSearch] = useState(" ");
+  const [search, setSearch] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Semua Kategori");
 
   const filteredProducts = products.filter((product) => {
