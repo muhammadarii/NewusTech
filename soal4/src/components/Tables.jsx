@@ -14,7 +14,7 @@ const Tables = () => {
 
   if (status === "loading") {
     return (
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center shadow-lg">
         <Loading />
       </div>
     );
