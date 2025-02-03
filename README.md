@@ -2,6 +2,7 @@
 ## 1. Palindrome
 ## 2. Foo Bar
 ## 3. React Component dan Global State
+   Berikut merupakan tampilan react component sederhana yang telah saya buat. 
    - Menampilkan daftar produk
      ![React Component](https://github.com/user-attachments/assets/4323206f-16cb-4efd-9ca0-4c33b130230d)
 
