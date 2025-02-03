@@ -1,5 +1,8 @@
 ## Technical Test Newus Technology (Frontend Developer)
-4. API Integration and Error Handling
+## 1. Palindrome
+## 2. Foo Bar
+## 3. React Component dan Global State
+## 4. API Integration and Error Handling
    Saya membuat api integration dengan menggunakan axios sebagai fetching data dan redux sebagai state management.
    - Landing Page
      ![Tampilan Table](https://github.com/user-attachments/assets/ce8aa3ea-77f1-4e23-9f0c-cdc82a5ef435)
