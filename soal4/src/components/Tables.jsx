@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUsers } from "../redux/features/userSlice";
 import Loading from "./Loading";
+import ErrorComponent from "./Error";
 
 const Tables = () => {
   const dispatch = useDispatch();
@@ -22,14 +23,18 @@ const Tables = () => {
   }
 
   if (status === "failed") {
-    return <div>Error: {error}</div>;
+    return (
+      <div>
+        <ErrorComponent error={error} />
+      </div>
+    );
   }
 
   return (
     <div>
-      <table className="bg-white border border-gray-300 shadow-xl">
+      <table className="bg-[#A1E3F9] border border-gray-300 shadow-xl">
         <thead>
-          <tr className="bg-gray-100">
+          <tr className="bg-[#3674B5] text-white">
             <th className="py-2 px-4 border-b">ID</th>
             <th className="py-2 px-4 border-b">Name</th>
             <th className="py-2 px-4 border-b">Username</th>
@@ -40,7 +45,10 @@ const Tables = () => {
         </thead>
         <tbody>
           {data.map((user) => (
-            <tr key={user.id} className="hover:bg-gray-50 text-black">
+            <tr
+              key={user.id}
+              className="hover:bg-[#578FCA] hover:text-white text-black"
+            >
               <td className="py-2 px-4 border-b text-center">{user.id}</td>
               <td className="py-2 px-4 border-b">{user.name}</td>
               <td className="py-2 px-4 border-b text-center">
