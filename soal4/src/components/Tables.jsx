@@ -27,7 +27,7 @@ const Tables = () => {
 
   return (
     <div>
-      <table className="bg-white border border-gray-300">
+      <table className="bg-white border border-gray-300 shadow-xl">
         <thead>
           <tr className="bg-gray-100">
             <th className="py-2 px-4 border-b">ID</th>
