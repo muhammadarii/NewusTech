@@ -2,6 +2,9 @@
 ## 1. Palindrome
 ## 2. Foo Bar
 ## 3. React Component dan Global State
+   - Menampilkan daftar produk
+   - Memiliki input untuk pencarian nama produk
+   - memiliki filter untuk memilih kategori produk 
 ## 4. API Integration and Error Handling
    Saya membuat api integration dengan menggunakan axios sebagai fetching data dan redux sebagai state management.
    - Landing Page
