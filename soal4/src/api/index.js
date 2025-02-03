@@ -1,2 +1,3 @@
-const userApi = "https://jsonplaceholder.typicode.com/users";
-export default userApi;
+export const api = {
+  url: "https://jsonplaceholder.typicode.com/users",
+};
