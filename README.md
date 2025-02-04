@@ -2,9 +2,16 @@
 ## 1. Palindrome
 ## 2. Foo Bar
 ## 3. React Component dan Global State
+   Berikut merupakan tampilan react component sederhana yang telah saya buat. 
    - Menampilkan daftar produk
+     ![React Component](https://github.com/user-attachments/assets/4323206f-16cb-4efd-9ca0-4c33b130230d)
+
    - Memiliki input untuk pencarian nama produk
-   - memiliki filter untuk memilih kategori produk 
+     ![TableSearch](https://github.com/user-attachments/assets/eea341e7-7743-4d74-8cbf-dd332ee9d7ad)
+
+   - memiliki filter untuk memilih kategori produk
+     ![TableFilter](https://github.com/user-attachments/assets/6645d1a1-6877-4027-af52-61f9fbe8554b)
+
 ## 4. API Integration and Error Handling
    Saya membuat api integration dengan menggunakan axios sebagai fetching data dan redux sebagai state management.
    - Landing Page
