@@ -1,6 +1,8 @@
 ## Technical Test Newus Technology (Frontend Developer)
 ## 1. Palindrome
+   Untuk Fungsi Palindrome bisa di lihat pada code di atas
 ## 2. Foo Bar
+   Untuk Fungsi Foo Bar bisa di lihat pada code di atas
 ## 3. React Component dan Global State
    Berikut merupakan tampilan react component sederhana yang telah saya buat. 
    - Menampilkan daftar produk
