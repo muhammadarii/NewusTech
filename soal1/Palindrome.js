@@ -9,4 +9,4 @@ function Palindrome(x) {
 const x = 12121;
 console.log(Palindrome(x));
 
-// membuat fungsi isPalindrome untuk mengecek apakah sebuah angka adalah palindrom dengan menggunakan reverse untuk membalikkan angka
+// membuat fungsi Palindrome untuk mengecek apakah sebuah angka adalah palindrom dengan menggunakan reverse untuk membalikkan angka
