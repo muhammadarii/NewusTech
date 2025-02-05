@@ -1,7 +1,7 @@
 const Tables = ({ data, status, error }) => {
   return (
     <div>
-      <table className="bg-[#A1E3F9] border border-gray-300 shadow-xl">
+      <table className="bg-[#A1E3F9] border border-gray-300">
         <thead>
           <tr className="bg-[#3674B5] text-white">
             <th className="py-2 px-4 border-b">ID</th>

@@ -31,7 +31,9 @@ const DataList = () => {
   }
   return (
     <>
-      <Tables data={data} />
+      <div className=" bg-white p-8 rounded-xl shadow-xl border-2 border-[#3674B5]">
+        <Tables data={data} />
+      </div>
     </>
   );
 };
